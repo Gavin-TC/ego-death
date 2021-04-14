@@ -1,15 +1,11 @@
 #include <iostream>
 #include <windows.h>
 
-#include "main.cpp"
-
 using namespace std;
 
-int gX, gY;
+int gX = 18, gY = 12;
 
-int main() {
-  gX = cMap[y][18];
-  gY = cMap[12][x];
+int goblinAI() {
 
   return 0;
 }
