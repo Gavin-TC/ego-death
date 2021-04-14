@@ -39,11 +39,10 @@ int main() {
 	while (running) {
 
     controls();
-    goblinAI();
 
 		//cMap[eX][eY] = 'E';
-	cMap[y][x] = '@';
     cMap[gY][gX] = 'G';
+	cMap[y][x] = '@';
 
     system("cls");
 
