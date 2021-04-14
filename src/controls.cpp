@@ -1,12 +1,13 @@
 #include <iostream>
 #include <windows.h>
+#include "generation.cpp"
 
 using namespace std;
 
 void controls() {
 	if (GetAsyncKeyState(VK_DOWN)) {
 		int y2 = y + 1;
-
+		
 		if (cMap[y2][x] != '#' && cMap[y2][x] != 'G') {
 			cMap[y][x] = '.';
 			y++;
