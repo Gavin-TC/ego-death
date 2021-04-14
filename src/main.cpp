@@ -36,15 +36,16 @@ int eX, eY; // exit x and y
 int main() {
 	while (running) {
 
+    controls();
+
 		//cMap[eX][eY] = 'E';
 		cMap[y][x] = '@';
+
+    system("cls");
 
 		for (int i = 0; i < 20; i++) {
 			cout << cMap[i] << endl;
 		}
-
-		system("cls");
-
 
 		system("pause>nul");
 	}
