@@ -1,27 +1,26 @@
 #include <iostream>
 #include <windows.h>
+#include <random>
 
 using namespace std;
 
 int gX = 18, gY = 12;
 
-DWORD lastGoblinMoveTime = 0;
+int randNum = rand() % 2;
 
 int goblinAI() {
+  for(int i = 0; i < 500; i++) {
+    randNum = rand() % 2;
+  }
 
-  DWORD dwTime = GetTickCount();
-  DWORD elapsed = dwTime - lastGoblinMoveTime;
-
-  if (elapsed > 500) {
-
-    lastGoblinMoveTime = dwTime;
-
+  if(randNum == 1) {
     if(gX - x > 0) {
       cMap[gY][gX] = '.';
       gX--;
     } else if(gX - x < 0) {
       cMap[gY][gX] = '.';
       gX++;
+    }
   }
   return 0;
 }

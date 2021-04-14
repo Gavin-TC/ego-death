@@ -52,6 +52,7 @@ int main() {
 		}
 		for(int i = 0; i < 1; i++) {
 			cout << "HP: " << health << endl;
+			cout << "RANDOM NUMBER " << randNum << endl;
 		}
 
 		if(cMap[y][x] == cMap[gY][gX]) {
