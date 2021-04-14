@@ -29,6 +29,10 @@ bool running = true;
 bool alive = true;
 
 int x = 1, y = 1;
+int xL = x - 1; // to the left of player
+int xR = x + 1; // to the right of player
+int yB = y - 1; // below player
+int yA = y + 1; // above player
 int health = 100;
 int eX, eY; // exit x and y
 
@@ -39,6 +43,7 @@ int main() {
 	while (running) {
 
     controls();
+	goblinAI();
 
 		//cMap[eX][eY] = 'E';
     cMap[gY][gX] = 'G';
@@ -51,12 +56,12 @@ int main() {
 		}
 		for(int i = 0; i < 1; i++) {
 			cout << "HP: " << health << endl;
-			cout << "RANDOM NUMBER " << randNum << endl;
 		}
 
 		if(cMap[y][x] == cMap[gY][gX]) {
 			health--;
 		}
+		
 		if(health == 0) {
 			alive = true;
 			running = false;
