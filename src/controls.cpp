@@ -9,7 +9,6 @@ void controls() {
 		int y2 = y + 1;
 		
 		if (cMap[y2][x] != '#' && cMap[y2][x] != 'G') {
-			cMap[y][x] = '.';
 			y++;
 			cMap[y][x] = '@';
 		}
@@ -18,7 +17,6 @@ void controls() {
 		int y2 = y - 1;
 
 		if (cMap[y2][x] != '#' && cMap[y2][x] != 'G') {
-			cMap[y][x] = '.';
 			y--;
 			cMap[y][x] = '@';
 		}
@@ -27,7 +25,6 @@ void controls() {
 		int x2 = x + 1;
 
 		if (cMap[y][x2] != '#' && cMap[y][x2] != 'G') {
-			cMap[y][x] = '.';
 			x++;
 			cMap[y][x] = '@';
 		}
@@ -36,7 +33,6 @@ void controls() {
 		int x2 = x - 1;
 
 		if (cMap[y][x2] != '#' && cMap[y][x2] != 'G') {
-			cMap[y][x] = '.';
 			x--;
 			cMap[y][x] = '@';
 		}

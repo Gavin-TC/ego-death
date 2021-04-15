@@ -1,11 +1,13 @@
 #include <iostream>
 #include <windows.h>
 #include <random>
-#include "generation.cpp"
 
 using namespace std;
 
 int gX = 18, gY = 12;
+
+int goblinDamage = 5;
+
 int gXL = x - 1; // to the left of goblin
 int gXR = x + 1; // to the right of goblin
 int gYB = y - 1; // below goblin
