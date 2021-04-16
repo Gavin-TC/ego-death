@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <windows.h>
+#include "generate.cpp"
 
 int draw();
 
