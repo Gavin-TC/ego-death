@@ -1,4 +1,4 @@
-# A roguelite dungeon crawler
+# ego death - a roguelite dungeon crawler
  A roguelite dungeon crawler made in C++ (with ASCII graphics).
  
  Inspired by Rogue and other ASCII based games. 
