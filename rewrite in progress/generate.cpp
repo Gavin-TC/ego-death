@@ -2,20 +2,13 @@
 
 #include <iostream>
 #include <windows.h>
-#include "screen.h"
+
+#include "globalVar.h"
 
 using namespace std;
 
 int generate() {
-
-
-    return 0;
-}
-
-int draw() {
-    for(int i = 0; i < 20; i++) {
-        cout << screen[i] << endl;
-    }
+    // generate random rooms/hallways
 
     return 0;
 }
