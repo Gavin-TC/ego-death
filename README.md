@@ -13,7 +13,7 @@ This game's main objective is to reclaim your ego after experiencing 'Ego Death'
 
 ---
 
-FAQ (that no one has asked yet):\n
+FAQ (that no one has asked yet):
 Q: Will the game have any releases on Mac/OSX
 A: No. I am currently using a library that can only be used on Windows machines, but Mac support could come far in the future.
 
