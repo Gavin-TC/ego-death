@@ -9,7 +9,7 @@
 
 ---
 
-This game's main objective is to reclaim your ego after experiencing 'Ego Death' due to an operation gone wrong through various randomly generated areas which contain different mythical creatures/items.
+The game's main objective is to reclaim 'yourself' after an [TBD] gone wrong through various randomly generated areas which contain different mythical creatures and items.
 
 ---
 
