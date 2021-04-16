@@ -1,5 +1,5 @@
-# A roguelike dungeon crawler
- A roguelike dungeon crawler made in C++ (with ASCII graphics).
+# A roguelite dungeon crawler
+ A roguelite dungeon crawler made in C++ (with ASCII graphics).
  
  Inspired by Rogue and other ASCII based games. 
 
@@ -9,7 +9,7 @@
 
 ---
 
-This game's main objective is to reclaim your ego after experiencing 'Ego Death' due to an operation gone wrong.
+This game's main objective is to reclaim your ego after experiencing ego death due to an operation gone wrong.
 
 Your goal is to reclaim your self-identity through various randomly generated areas which contain different mythical creatures.
 
