@@ -9,9 +9,7 @@
 
 ---
 
-This game's main objective is to reclaim your ego after experiencing ego death due to an operation gone wrong.
-
-Your goal is to reclaim your self-identity through various randomly generated areas which contain different mythical creatures.
+This game's main objective is to reclaim your ego after experiencing 'Ego Death' due to an operation gone wrong through various randomly generated areas which contain different mythical creatures/items.
 
 ---
 
