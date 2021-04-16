@@ -4,12 +4,16 @@
 #include <iostream>
 #include <windows.h>
 
-extern int x = 1, y = 1; // player coordinates
-extern int health = 100; // player health
-extern int player = '@'; // player symbol
+struct Player {
+    int x = 1, y = 1;
+    int health = 100;
+    int symbol = '@';
+};
 
-extern int gX, gY; // goblin coordinates
-extern int health = 100; // goblin health
-extern int goblin = 'G'; // goblin symbol
+struct Goblin {
+    int x, y;
+    int health = 100;
+    int symbol = 'G';
+};
 
 #endif
