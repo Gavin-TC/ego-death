@@ -20,8 +20,8 @@ A: No. I am currently using a library that can only be used on Windows machines,
 Q: Is this game good?
 A: Probably not, and you might not even like the idea. I like ASCII style games and it's my first 'actual' game, so it will probably not be very good, but I will try my best. :)
 
-Q: How will this game play?
-A: This game will control pretty similar to Rogue (1980) as far as movement goes, but the controls with other parts of the game are still TBD.
+Q: How does this game play?
+A: This game's movement controls are pretty similar to Rogue (1980), but the controls with other parts of the game are still TBD.
 
 Q: Why is the download named game.exe? That's quite sketchy...
 A: It is quite sketchy, but I haven't figured out a better way to do this yet, so for now it'll have to be sketchy.
