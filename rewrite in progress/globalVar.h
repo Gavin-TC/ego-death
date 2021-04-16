@@ -5,7 +5,11 @@
 #include <windows.h>
 
 struct Player {
-    int x = 1, y = 1;
+    int x = 1, y = 4;
+    
+    int xL = x - 1, xR = x + 1;
+    int yU = y - 1, yD = y + 1;
+
     int health = 100;
     int symbol = '@';
 };

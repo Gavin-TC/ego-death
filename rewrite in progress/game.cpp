@@ -6,6 +6,7 @@
 #include "screen.h"
 #include "generate.h"
 #include "globalVar.h"
+#include "controls.h"
 
 using namespace std;
 
@@ -14,6 +15,7 @@ bool running = true;
 int main() {
     Screen s;
     Player p;
+    Controls c;
 
     while(running) {
 
@@ -22,9 +24,12 @@ int main() {
         s.screen[p.y][p.x] = p.symbol;
 
         s.draw();
+        c.controls();
 
         for(int i = 0; i < 1; i++) {
             cout << "HP: " << p.health << endl;
+            cout << p.yU << endl;
+            cout << p.yD << endl;
         }
 
         system("pause>nul");
