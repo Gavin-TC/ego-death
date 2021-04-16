@@ -7,6 +7,8 @@
 
 4/15/2021: New rewritten code displays properly.
 
+---
+
 FAQ (that no one has asked yet):
 Q: Will the game have any releases on Mac/OSX
 A: No. I am currently using a library that can only be used on Windows machines, but Mac support could come far in the future.
